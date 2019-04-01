@@ -3,6 +3,8 @@ kind: Config
 build:
   artifacts:
   - image: skaffold-go-module
+  local:
+    useBuildkit: true
 deploy:
   kubectl:
     manifests:
