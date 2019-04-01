@@ -3,6 +3,9 @@ kind: Config
 build:
   artifacts:
   - image: skaffold-go-module
+    context: .
+    docker:
+      dockerfile: Dockerfile
   local:
     useBuildkit: true
 deploy:
