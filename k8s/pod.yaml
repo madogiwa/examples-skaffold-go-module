@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: skaffold-go-module
+spec:
+  containers:
+  - name: skaffold-go-module
+    image: skaffold-go-module
+    ports:
+      - containerPort: 1323
