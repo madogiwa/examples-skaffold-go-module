@@ -1,3 +1,4 @@
+## based on https://container-solutions.com/faster-builds-in-docker-with-go-1-11/
 
 ## base image
 FROM golang:1.12-alpine AS base
